@@ -1,8 +1,21 @@
 package com.example.listadecomprasfinal.modelview;
 
+import android.app.Application;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
-import android.app.Application;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.listadecomprasfinal.database.Category;
+import com.example.listadecomprasfinal.database.DataBase;
+
 import java.util.List;
 
 public class ModelView extends AndroidViewModel {

@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.listadecomprasfinal.MainActivity;
+import com.example.listadecomprasfinal.R;
+
 public class TelaDeLogin extends AppCompatActivity {
 
 

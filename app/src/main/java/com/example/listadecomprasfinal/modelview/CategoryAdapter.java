@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.listadecomprasfinal.R;
 import com.example.listadecomprasfinal.database.Category;
 
 import java.util.List;

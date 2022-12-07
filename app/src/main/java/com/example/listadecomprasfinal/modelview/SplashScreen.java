@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.example.listadecomprasfinal.R;
+
 public class SplashScreen extends AppCompatActivity {
 
     @Override
@@ -21,7 +23,7 @@ public class SplashScreen extends AppCompatActivity {
                     startActivity(new Intent(SplashScreen.this, TelaDeLogin.class));
                     finish();
             }
-        }, 3000)
+        }, 3000);
 
     }
 }
